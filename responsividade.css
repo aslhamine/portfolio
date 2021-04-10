@@ -1,0 +1,94 @@
+@media(max-width:500px){
+    .show-menu .container{
+      width: 100%;
+    }
+    
+    .show-menu .toggle {
+      right: 80%;
+    }
+      
+      .header .header-banner {
+        position: absolute;
+        top: 15%;
+        left: 7%;
+      }
+
+      .show-menu .header .header-banner{
+        visibility: hidden;
+        display: none;
+      }
+      
+      .header .header-banner h1 {
+        font-size: 2.5rem;
+        text-shadow: 0.1rem 0.2rem 1px rgba(0, 0, 0, 0.4);
+      }
+      
+      .header-banner p {
+        font-size: 1.5rem;
+        text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.4);
+      }
+      
+      .header-banner button {
+        padding: 0.8rem 1.5rem;
+      }
+    
+      .header #message {
+
+        padding: 1rem 2rem;
+        border-radius: 0.2rem;
+       font-size: 0.8rem;
+      }
+      
+      .header #message.show {
+        bottom: 2rem;
+        visibility: visible;
+      }
+      
+      @keyframes moveBanner {
+        0% {
+          transform: translateY(10rem) rotateY(-30deg);
+        }
+        100% {
+          transform: translateY(0) rotateY(0);
+          opacity: 1;
+        }
+      }
+    
+      
+      .menu {
+        width: 100%;
+        right: -100%;
+  
+      }
+      
+      .show-menu .menu {
+        right: 0;
+      }
+      
+      .menu-sidebar {
+        position: absolute;
+        top: 40%;
+        left: 36%;
+        transform: translate(-50%, -50%);
+      }
+    
+      .menu-item {
+        text-indent: 0.3rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+      }
+    
+    span{
+      margin-left: 1rem;
+    }
+    
+    .menu-link {
+      color: #fff;
+      font-size: 1.5rem;
+      transition: 450ms;
+    }
+      
+    .menu-link:hover{
+      color: #fd4345;
+    }
+}
