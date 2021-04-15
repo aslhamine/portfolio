@@ -8,7 +8,6 @@ toggle.addEventListener("click", () =>{
     }, 8000);
 });
 
-
 const btn = document.querySelector("#message-btn");
 const message = document.querySelector("#message");
 
@@ -18,11 +17,3 @@ setTimeout(() => {
     message.classList.remove("show");
 }, 6000);
 });
-
-
-// const toggle = document.querySelector('.toggle');
-
-// toggle.addEventListener('click',()=>{
-//     const sharebtn = document.querySelector('.share');
-//     sharebtn.classList.toggle('active');
-// })
