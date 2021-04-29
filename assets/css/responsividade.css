@@ -157,7 +157,7 @@
     visibility: hidden;
   }
 
-  .project-info button{
+  .project-info a{
     padding: 0.4rem 1rem;
   }
 
@@ -379,7 +379,7 @@
     margin-bottom: 2rem;
   }
 
-  .project-info button{
+  .project-info .btn{
     padding: 0.4rem 1rem;
   }
 
@@ -607,7 +607,7 @@
     visibility: visible;
   }
 
-  .project-info button{
+  .project-info .btn{
     padding: 0.4rem 1rem;
   }
 
@@ -835,7 +835,7 @@
     visibility: visible;
   }
 
-  .project-info button{
+  .project-info .btn{
     padding: 0.4rem 1rem;
   }
 
